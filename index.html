@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+    <div class="contact-container">
+        <form action="" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact us</h2>
+                <h3>Subheading for description or instructions</h3>
+                <hr>
+            </div>
+            <div class="personName">
+                <label for="name">First name</label>
+                <input type="text" name="firstname" id="name" placeholder="Jane" class="name-inputs" required>
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Smitherton" class="name-inputs" required>
+            </div>
+            <label for="mail">Email</label>
+            <input type="email" name="email" id="mail" placeholder="email@janesfakedomain.net" class="contact-inputs" required>
+            <label for="phone">Number</label>
+            <input type="number" name="number" id="phone" placeholder="+380-ХХ-ХХ-ХХ-ХХХ" class="contact-inputs" required>
+            <label for="msg">Your message</label>
+            <textarea name="message" id="msg" placeholder="Enter Your question or message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-right">
+            <img src="/assets/right_img.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

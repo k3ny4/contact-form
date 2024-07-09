@@ -1,0 +1,89 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    background: #ffffff;
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img{
+    border-radius: 8px;
+    width: 508px;
+    height: 657px;
+}
+.personName{
+    display: inline-block;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: start;
+    cursor: text;
+}
+.contact-left{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 40%;
+    cursor: text;
+}
+.contact-left-title h2{
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin-bottom: 25px;
+}
+.contact-left-title h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #828282;
+}
+.contact-left-title hr{
+    border: none;
+    width: 150px;
+    height: 0%;
+    border-radius: 0%;
+    margin-bottom: 0%;
+}
+.name-inputs{
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 295px;
+    height: 48px;
+    outline: none;
+    box-shadow: 2px 2px 2px #e0e0e0;
+}
+.contact-inputs{
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 626px;
+    height: 48px;
+    outline: none;
+    box-shadow: 2px 2px 2px #e0e0e0;
+}
+.contact-left textarea{
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 626px;
+    height: 123px;
+    resize: none;
+    outline: none;
+}
